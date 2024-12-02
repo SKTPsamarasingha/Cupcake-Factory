@@ -1,0 +1,15 @@
+<resources>
+    <style name="box" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#FF0000</item>
+<!--        <item name="boxStrokeColorFocused"></item>-->
+
+    </style>
+
+
+<!--        <style name="SearchViewStyle">-->
+<!--&lt;!&ndash;            <item name="android:iconifiedByDefault">false</item>&ndash;&gt;-->
+<!--            <item name="android:queryHint">Search for cupcakes</item>-->
+<!--            <item name="android:background">@color/purple</item>-->
+<!--        </style>-->
+
+</resources>

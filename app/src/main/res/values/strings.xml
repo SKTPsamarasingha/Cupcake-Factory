@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CupCake</string>
+    <string name="submit">Submit</string>
+    <string name="SubTotal">Subtotal Rs: %s</string>
+    <string name="discount">Discount Rs: %s</string>
+    <string name="total">Total Rs: %s</string>
+
+
+    <string name="offer_text">%1$s  -%2$d%%</string>
+
+
+</resources>

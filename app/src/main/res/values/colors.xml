@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="green">#006769</color>
+    <color name="lightBlue">#5AB2FF</color>
+    <color name="darkRed">#AD1457</color>
+    <color name="maroon">#8F0642</color>
+
+    <color name="white">#ffff</color>
+    <color name="DarkBlue">#020253</color>
+
+
+    <color name="purple">#5E4386</color>
+    <color name="lightPurple">#BC7FCD</color>
+    <color name="pink">#FB9AD1</color>
+    <color name="lightPink">#ffd3d4</color>
+
+
+
+
+
+
+
+
+
+
+</resources>
+
+

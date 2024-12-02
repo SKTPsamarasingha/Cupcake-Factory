@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/purple"
+        android:text="Cupcake Name"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/subTotal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cartBtn"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/minus_solid"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/count"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="100"
+        android:textAlignment="center"
+        android:textColor="@color/DarkBlue"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/incrementBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/incrementBtn"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/plus_solid"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@color/DarkBlue"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/incrementBtn"
+        app:layout_constraintStart_toStartOf="@+id/cartBtn"
+        app:layout_constraintTop_toBottomOf="@+id/count" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
